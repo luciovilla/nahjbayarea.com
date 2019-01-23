@@ -6,7 +6,7 @@ module.exports = {
     description: 'The professional publishing platform',
     siteUrl: 'https://nahjbayarea.com', // full path to blog - no ending slash
   },
-  pathPrefix: "/nahjbayarea.coms", // repo name
+  pathPrefix: "/nahjbayarea.com", // repo name
   plugins: [
     'gatsby-plugin-sharp',
     'gatsby-plugin-less',
