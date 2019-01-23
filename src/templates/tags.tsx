@@ -78,7 +78,7 @@ const Tags: React.FunctionComponent<TagTemplateProps> = props => {
       </Helmet>
       <Wrapper>
         <header
-          className={`${SiteHeader} ${outer} ${tagData && tagData.node.image ? '' : 'no-cover'}`}
+          className={`${SiteHeader} ${outer} ${tagData && tagData.node.image ? '' : 'no-cover'} siteheader `}
           style={{
             backgroundImage:
               tagData && tagData.node.image
@@ -90,7 +90,7 @@ const Tags: React.FunctionComponent<TagTemplateProps> = props => {
             <SiteNav isHome={false} />
             <SiteHeaderContent>
               <SiteTitle>{tag}</SiteTitle>
-              <SiteDescription>
+              <SiteDescription className="sitedescription tagpage">
                 {tagData && tagData.node.description ? (
                   tagData.node.description
                 ) : (
@@ -106,7 +106,7 @@ const Tags: React.FunctionComponent<TagTemplateProps> = props => {
         </header>
         <main id="site-main" className={`${SiteMain} ${outer}`}>
           <div className={`${inner}`}>
-            <div className={`${PostFeed} ${PostFeedRaise}`}>
+            <div className={`${PostFeed} ${PostFeedRaise} postfeedraise`}>
               {edges.map(({ node }) => (
                 <PostCard key={node.fields.slug} post={node} />
               ))}
@@ -128,13 +128,6 @@ export const pageQuery = graphql`
         node {
           id
           description
-          image {
-            childImageSharp {
-              fluid(maxWidth: 3720) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
         }
       }
     }

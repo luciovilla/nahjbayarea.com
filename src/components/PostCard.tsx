@@ -9,7 +9,7 @@ import { colors } from '../styles/colors';
 import { PageContext } from '../templates/post';
 
 const PostCardStyles = css`
-  flex: 1 1 300px;
+  flex: 0 0 300px;
   display: flex;
   flex-direction: column;
   overflow: hidden;

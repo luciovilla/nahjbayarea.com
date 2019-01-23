@@ -1,3 +1,5 @@
-- id: speeches
-  description: Some of the greatest words ever spoken.
-  image: img/speeches-cover.jpg
+- id: events
+  description: All upcoming and past events
+
+- id: updates
+  description: NAHJ member updates

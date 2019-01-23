@@ -145,11 +145,11 @@ class SiteNav extends React.Component<SiteNavProps, SiteNaveState> {
             <li role="menuitem">
               <Link to="/about">About</Link>
             </li>
-            <li role="menuitem">
+            {/* <li role="menuitem">
               <Link to="/fellowship">Juan Gonzales Fellowship</Link>
-            </li>
+            </li> */}
             <li role="menuitem">
-              <Link to="/tags/event/">Events</Link>
+              <Link to="/tags/events/">Events</Link>
             </li>
           </ul>
         </SiteNavLeft>

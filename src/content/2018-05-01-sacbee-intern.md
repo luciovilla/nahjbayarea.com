@@ -4,7 +4,7 @@ title: Sacramento Bee selects Angel Guerrero as its NAHJ Bay Area 2018 Intern
 date: 2018-05-01T02:05:34.149Z
 image: img/2018/interns/angelg.jpg
 tags: 
-  - Update
+  - Updates
 draft: false
 ---
 

@@ -21,10 +21,10 @@ const PageTemplate = css`
 const Fellowship: React.FunctionComponent = () => (
   <IndexLayout>
     <Helmet>
-      <title>About</title>
+      <title>2019 Juan Gonzales Fellowship</title>
     </Helmet>
     <Wrapper className={`${PageTemplate}`}>
-      <header className={`${SiteHeader} ${outer}`}>
+      <header className={`${SiteHeader} ${outer} siteheader`}>
         <div className={`${inner}`}>
           <SiteNav />
         </div>
@@ -32,33 +32,25 @@ const Fellowship: React.FunctionComponent = () => (
       <main id="site-main" className={`site-main ${SiteMain} ${outer}`}>
         <article className={`${PostFull} post page ${NoImage}`}>
           <PostFullHeader>
-            <PostFullTitle>About</PostFullTitle>
+            <PostFullTitle>Juan Gonzales Fellowship</PostFullTitle>
           </PostFullHeader>
 
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                Ghost is professional publishing platform designed for modern journalism. This is a
-                demo site of a basic Ghost install to give you a general sense of what a new Ghost
-                site looks like when set up for the first time.
-              </p>
-              <blockquote>
-                <p>
-                  If you'd like to set up a site like this for yourself, head over to{' '}
-                  <a href="https://ghost.org">Ghost.org</a> and start a free 14 day trial to give
-                  Ghost a try!
-                </p>
-              </blockquote>
+                NAHJ Bay Area is proud to offer a 12-week paid summer fellowship at El Tecolote. The selected fellow will receive a stipend of $4,800 over the course of the program.
+              </p> 
               <p>
-                If you're a developer: Ghost is a completely open source (MIT) Node.js application
-                built on a JSON API with an Ember.js admin client. It works with MySQL and SQLite,
-                and is publicly available <a href="https://github.com/TryGhost/ghost">on Github</a>.
-              </p>
+                The fellowship is named after Juan Gonzales, the founder of El Tecolote and a 2009 NAHJ Hall of Fame Honoree.</p>
               <p>
-                If you need help with using Ghost, you'll find a ton of useful articles on{' '}
-                <a href="https://help.ghost.org">our knowledgebase</a>, as well as extensive{' '}
-                <a href="https://docs.ghost.org">developer documentation</a>.
+                The Juan Gonzales Fellowship supports diverse journalists who are deeply interested in reporting the most urgent issues the Latino community faces.
               </p>
+              <ul>
+                <li>To challenge misinformation and disinformation</li>
+                <li>To hold the powerful accountable</li>
+                <li>To fight bias, intolerance and injustice</li>
+              </ul>
+              
             </div>
           </PostFullContent>
         </article>

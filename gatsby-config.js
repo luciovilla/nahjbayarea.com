@@ -4,9 +4,9 @@ module.exports = {
   siteMetadata: {
     title: 'NAHJ Bay Area',
     description: 'The professional publishing platform',
-    siteUrl: 'http://nahjbayarea.com', // full path to blog - no ending slash
+    siteUrl: 'https://nahjbayarea.com', // full path to blog - no ending slash
   },
-  pathPrefix: "/nahjbayarea.com", // repo name
+  pathPrefix: "/nahjbayarea.coms", // repo name
   plugins: [
     'gatsby-plugin-sharp',
     'gatsby-plugin-less',

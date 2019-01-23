@@ -2,7 +2,7 @@ import * as React from 'react';
 import Helmet from 'react-helmet';
 
 // @ts-ignore
-import favicon from '../../src/favicon.ico';
+import favicon from '../../src/favicon.jpg';
 
 import '../styles/seed.less';
 

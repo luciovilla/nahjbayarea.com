@@ -1,10 +1,10 @@
 ---
 layout: post
 title: General Meeting + Mixer
-image: img/2018-madoak/group1.jpg
 date: 2019-01-24T07:03:47.149Z
+image: img/2019/accionlatina/building.jpg
 tags: 
-  - Event
+  - Events
 draft: false
 ---
 
