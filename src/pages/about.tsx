@@ -39,15 +39,22 @@ const About: React.FunctionComponent = () => (
             <div className="post-content">
 
               <p>
-                NAHJ Bay Area is a chapter of The National Association of Hispanic Journalists who is dedicated to building a diverse community of professional journalists and students. We support journalists throughout their careers with community-building, scholarships and workshops/presentations.
+                NAHJ Bay Area is a chapter of The National Association of Hispanic Journalists dedicated in building a diverse community of journalism professionals and students, help advance in their education and careers and to foster an accurate and fair portrayal of Latinos in the news media.
+              </p>
+              <p>
+                We support journalists throughout their careers with community-building social events, scholarships, workshops and mentorships.
+              </p>
+
+              <p>
+                Estamos aquí para ayudar!
               </p>
 
               <h4>Current board</h4>
               <p>
-                President: Lucio Villa<br />
-                Vice President: Nathan Olivarez-Giles<br />
-                Secretary: Erica Argueta<br />
-                Treasurer: Santiago Mejia
+                President: <a href="https://twitter.com/luciovilla" target="_blank">Lucio Villa</a><br />
+                Vice President: <a href="https://twitter.com/nateog" target="_blank">Nathan Olivarez-Giles</a><br />
+                Secretary: <a href="https://twitter.com/EricaArgueta" target="_blank">Erica Argueta</a><br />
+                Treasurer: <a href="https://twitter.com/SantiagoMejia" target="_blank">Santiago Mejia</a>
               </p>
               
               <p><a href="http://nahj.org/membership-2/">Become a member!</a></p>

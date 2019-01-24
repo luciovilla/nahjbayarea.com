@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2018 Holiday Party
+title: Holiday Party
 image: img/2018/holidayparty/group.jpg
 date: 2018-12-01T04:00:00Z
 tags: 

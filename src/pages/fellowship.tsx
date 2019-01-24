@@ -21,7 +21,7 @@ const PageTemplate = css`
 const Fellowship: React.FunctionComponent = () => (
   <IndexLayout>
     <Helmet>
-      <title>2019 Juan Gonzales Fellowship</title>
+      <title>Juan Gonzales Fellowship</title>
     </Helmet>
     <Wrapper className={`${PageTemplate}`}>
       <header className={`${SiteHeader} ${outer} siteheader`}>

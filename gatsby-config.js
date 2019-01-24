@@ -3,10 +3,10 @@ const path = require('path');
 module.exports = {
   siteMetadata: {
     title: 'NAHJ Bay Area',
-    description: 'The professional publishing platform',
+    description: 'Dedicated in building a diverse community of journalism professionals and students, help advance in their education and careers and to foster an accurate and fair portrayal of Latinos in the news media.',
     siteUrl: 'https://nahjbayarea.com', // full path to blog - no ending slash
   },
-  pathPrefix: "/nahjbayarea.com", // repo name
+
   plugins: [
     'gatsby-plugin-sharp',
     'gatsby-plugin-less',
@@ -45,7 +45,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-casper.netlify.com',
+        siteUrl: 'https://nahjbayarea.com',
       },
     },
     'gatsby-plugin-emotion',
@@ -63,7 +63,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-XXXX-Y',
+        trackingId: 'UA-133194604-1',
         // Puts tracking script in the head instead of the body
         head: true,
         // IP anonymization for GDPR compliance

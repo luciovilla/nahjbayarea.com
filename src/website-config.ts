@@ -30,11 +30,12 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'NAHJ Bay Area',
-  description: 'NAHJ Bay Area is a chapter of The National Association of Hispanic Journalists who is dedicated to building a diverse community of journalism professionals and students.',
+  description: 'NAHJ Bay Area is a chapter of The National Association of Hispanic Journalists dedicated to building a diverse community of journalism professionals and students.',
+  shareImage: 'img/share.jpg',
   coverImage: 'img/bg.jpg',
   logo: 'img/logo.jpg',
   lang: 'en',
-  siteUrl: 'http://nahjbayarea.com',
+  siteUrl: 'https://nahjbayarea.com',
   facebook: 'https://www.facebook.com/nahjbayarea',
   twitter: 'https://twitter.com/nahjbayarea',
   showSubscribe: true,

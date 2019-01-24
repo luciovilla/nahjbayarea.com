@@ -13,7 +13,6 @@ const SiteFooter = css`
   padding-top: 20px;
   padding-bottom: 60px;
   color: #fff;
-  background: ${setLightness('0.0015', colors.darkgrey)};
 `;
 
 const SiteFooterContent = css`

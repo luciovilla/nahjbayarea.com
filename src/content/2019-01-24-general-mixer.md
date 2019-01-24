@@ -2,7 +2,6 @@
 layout: post
 title: General Meeting + Mixer
 date: 2019-01-24T07:03:47.149Z
-image: img/2019/accionlatina/building.jpg
 tags: 
   - Events
 draft: false
