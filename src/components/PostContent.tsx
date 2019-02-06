@@ -25,7 +25,7 @@ export const PostFullContent = styled.section`
   :before {
     content: '';
     position: absolute;
-    top: 15px;
+    top: 5px;
     left: -5px;
     z-index: -1;
     display: block;
@@ -39,7 +39,7 @@ export const PostFullContent = styled.section`
   :after {
     content: '';
     position: absolute;
-    top: 15px;
+    top: 5px;
     right: -5px;
     z-index: -1;
     display: block;

@@ -76,24 +76,16 @@ export const PostFullTitle = styled.h1`
 `;
 
 const PostFullImage = styled.figure`
-  margin: 0 -10vw -165px;
-  height: 800px;
+  margin: 0 auto 3rem;
   background: ${colors.lightgrey} center center;
-  background-size: cover;
   border-radius: 5px;
 
   @media (max-width: 1170px) {
-    margin: 0 -4vw -100px;
-    height: 600px;
     border-radius: 0;
   }
 
-  @media (max-width: 800px) {
-    height: 400px;
-  }
-  @media (max-width: 500px) {
-    margin-bottom: 4vw;
-    height: 350px;
+  @media (max-width: 768px) {
+    margin: 0 -4vw 3rem;
   }
 `;
 
